@@ -1,0 +1,34 @@
+        h2 {
+          text-align: right;
+          font color: #ff9f80;
+          font-family: Lucida Console;
+        }
+        h2.right {
+          text-align:left;
+        }
+        p {
+          text-align: right;
+          color: #000000;
+          font-family: Lucida Console;
+        }  
+        p.special {
+          font-family: Lucida Console;
+          color: #ff9f80;
+          font-size: 65%;
+        }
+        ul {
+          float: right;
+          list-style-position: inside;
+          color: #000000;
+        }
+        body {
+          background-color: #ccccff;
+        }
+        img.rotateimg180 {
+          -webkit-transform:rotate(180deg);
+          -moz-transform: rotate(180deg);
+          -ms-transform: rotate(180deg);
+          -o-transform: rotate(180deg);
+          transform: rotate(180deg);
+          height: 60%;
+          width:60%; }
