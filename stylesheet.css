@@ -3,11 +3,11 @@
           font color: #ff9f80;
           font-family: Lucida Console;
         }
-        h2.right {
+   /*     h2.right {
           text-align:left;
-        }
+        } */
         p {
-          text-align: right;
+        /*  text-align: right; */
           color: #000000;
           font-family: Lucida Console;
         }  
@@ -17,13 +17,19 @@
           font-size: 65%;
         }
         ul {
-          float: right;
-          list-style-position: inside;
+        /*  float: right;
+          list-style-position: inside; */
           color: #000000;
         }
         body {
           background-color: #ccccff;
-        }
+          display: table-cell;
+          vertical-align: middle;}
+        html, body {
+          height: 100%;}
+        html {
+                display: table;
+                margin: auto; }
         img.rotateimg180 {
           -webkit-transform:rotate(180deg);
           -moz-transform: rotate(180deg);
@@ -32,7 +38,7 @@
           transform: rotate(180deg);
           height: 60%;
           width:60%; }
-        #mouse_over {
+        #mouse_over { 
           opacity: 0;
          }
         #mouse_over:hover {
