@@ -1,6 +1,28 @@
 <!DOCTYPE html>
-  <html>
-    <head> 
+  <html> <head>
+    <style type="text/css">
+  #div1, #div2, #div3 {  
+    visibility: hidden;  
+  }
+</style>
+<script>
+  function show(id) {
+    document.getElementById(id).style.visibility = "visible";
+  }
+  function hide(id) {
+    document.getElementById(id).style.visibility = "hidden";
+  }
+</script>
+
+<div onMouseOver="show('div1')" onMouseOut="hide('div1')">
+  <div id="div1">Div 1 Content</div>
+</div>
+<div onMouseOver="show('div2')" onMouseOut="hide('div2')">
+  <div id="div2">Div 2 Content</div>
+</div>
+<div onMouseOver="show('div3')" onMouseOut="hide('div3')">
+  <div id="div3">Div 3 Content</div>
+    </div> 
       <title> About Brenda </title>
       <meta charset="UTF-8"> <!--TO DO: try to implement ideas in separate JS, make CSS into a separate file and upload -->
       <link rel="stylesheet" type="text/css" href="stylesheet.css">
